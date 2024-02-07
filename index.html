@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/rwdindex.css" />
 
+    <script src="./js/jquery-1.12.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
 
@@ -111,6 +112,42 @@
             </li>
           </ul>
         </div>
+        <!-- <div class="admenu">
+          <ul class="bk">
+            <li>
+              <a href=""
+                ><img src="./image/header_srch_btn.png" alt="" />
+                <p>검색</p></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./image/reser_btn.png" alt="" />
+                <p>예매</p></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./image/group_btn.png" alt="" />
+                <p>단체</p></a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img src="./image/company_btn.png" alt="" />
+                <p>기업</p></a
+              >
+            </li>
+          </ul>
+        </div> -->
+      </div>
+    </div>
+    <div class="quick">
+      <div class="chat">
+        <a href="#"><img src="./image/ico_chatbot.png" alt="" /></a>
+      </div>
+      <div class="music">
+        <a><img src="./image/ico_audio.png" alt="" /></a>
       </div>
     </div>
 
@@ -234,15 +271,15 @@
         <!--row-->
         <div class="re_btn"><a href="#">더 많은 리뷰 보기</a></div>
       </div>
-
+      <!-- 영상컨텐츠 -->
       <div class="youtube">
         <div class="row">
           <h2>롯데월드의 생생한 순간!</h2>
           <h3>영상으로 만나볼까요?</h3>
           <p>신년 시즌 미라클 윈터 공연</p>
-          <div class="videoBox" ?autoplay="1" &mute="1">
+          <div class="videoBox">
             <!-- <video src="./image/movie.mp4" autoplay muted loop controls></video> -->
-            <iframe
+            <!-- <iframe
               width="100%"
               height="600"
               src="https://www.youtube.com/embed/JDKhD-QNcvM?si=cbb9gk3A5ZuekiF9?autoplay=1&mute=1"
@@ -251,11 +288,18 @@
               frameborder="0"
               allow="autoplay"
               allowfullscreen
-            ></iframe>
+            ></iframe> -->
+            <video
+              src="./image/pexels-harvey-tan-villarino-13279683 (1080p).mp4"
+              autoplay
+              muted
+              loop
+              controls
+            ></video>
           </div>
         </div>
       </div>
-
+      <!-- 퍼레이드 -->
       <div class="parade">
         <div class="all">
           <h2>다양한 공연 및 퍼레이드 <span>정보를 한눈에!</span></h2>
@@ -369,6 +413,218 @@
           </div>
         </div>
       </div>
+      <!-- 어트랙션 -->
+      <div class="attraction">
+        <div class="row">
+          <div class="text">
+            <h2>재미있고 즐거운 <span>다양한 어트랙션!</span></h2>
+          </div>
+          <div class="boardList">
+            <ul class="title">
+              <li class="on"><a href="javascript:;">아이와 함께</a></li>
+              <li><a href="javascript:;">야외에서 신나게</a></li>
+              <li><a href="javascript:;">실내에서 쾌적하게</a></li>
+            </ul>
+            <div class="container">
+              <div class="content on">
+                <ul class="six">
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 1-1.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>언더씨킹덤</h3>
+                      <p>아이와 함께 떠나는 해저왕국탐험!</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 1-2.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>유레카</h3>
+                      <p>높이높이 날아올라요~</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 1-3.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>점핑피쉬</h3>
+                      <p>신나는 해저여향</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 1-4.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>스윙팡팡</h3>
+                      <p>로티와 친구들이 팜께 팡팡~</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img
+                          src="./image/iPhone SE - 1 (1).png"
+                          alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>매직붕붕카</h3>
+                      <p>친구들과 함께 경주해보아요!</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 1-6.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>키즈토리아</h3>
+                      <p>마음껏 즐길수 있는 거대한 동화속 세상</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="content">
+                <ul class="six">
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 2-1.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>자이로스핀</h3>
+                      <p>자이로 시리즈 3번째!</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 2-2.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>혜성특급</h3>
+                      <p>특급열차와 함께 떠나요</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 2-3.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>자이로스윙</h3>
+                      <p>자유낙하와 자유회전을 동시에</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 2-4.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>아트란티스</h3>
+                      <p>어트랙션의 혁명 최고의 스릴</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 2-5.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>번지드롭</h3>
+                      <p>번지점프의 짜릿한 묘미!</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 2-6.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>회전그네</h3>
+                      <p>빙글빈글 멈출수 없는 재미</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="content">
+                <ul class="six">
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 3-1.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>후룸라이드</h3>
+                      <p>색다른 모험, 쥬라기 시대로</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 3-2.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>신밧드의 모험</h3>
+                      <p>신비한 모험을 떠나요~</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 3-3.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>파라오의 분노</h3>
+                      <p>실감나는 라이드를 즐기자!</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 3-4.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>스페인 해적선</h3>
+                      <p>거친 파도와 같은 아찔함!</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 3-5.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>후렌치 레볼루션</h3>
+                      <p>숨막히는 롤러코스터의 매력</p>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="img"
+                        ><img src="./image/six 3-6.jpg" alt="" /></span
+                    ></a>
+                    <div class="tx">
+                      <h3>범퍼카</h3>
+                      <p>좌충우돌 부딪히는 즐거운 소리</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="at_btn"><a href="#">더 많은 어트랙션 보기</a></div>
+        </div>
+      </div>
 
       <!-- 스페셜 -->
       <div class="special">
@@ -402,8 +658,38 @@
             </ul>
           </div>
           <div class="han">
-            <div class="news"></div>
-            <div class="smart"></div>
+            <div class="news">
+              <div class="hk">
+                <h2>롯데월드 소식</h2>
+                <div class="plus">
+                  <a href=""
+                    >더보기
+                    <img src="./image/plus.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <ul class="nexs-list">
+                <li>
+                  <p>매직패스 프리미엄 운영 변경 안내</p>
+                  <span>2024.01.19</span>
+                </li>
+                <li>
+                  <p>혜성특급 탑승예약제 안내</p>
+                  <span>2024.01.19</span>
+                </li>
+                <li>
+                  <p>개인정보처리방침 변경 안내</p>
+                  <span>2024.01.19</span>
+                </li>
+                <li>
+                  <p>35주년 맵핑쇼 Luminous Memories of t...</p>
+                  <span>2024.01.11</span>
+                </li>
+              </ul>
+            </div>
+            <div class="smart">
+              <img src="./image/spe-phone-mo.jpg" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -425,8 +711,32 @@
             <a href="#">㈜호텔롯데 소개 </a>
           </div>
         </div>
-        <div class="f-logo"><img src="./image/footer_logo.png" alt="" /></div>
         <div class="conv">
+          <div class="fg">
+            <div class="fg-jd">
+              <p>
+                <select id="select_data" name="main_me">
+                  <option value="data55">롯데마트</option>
+                  <option value="data44">롯데백화점</option>
+                  <option value="data33">롯데웰푸드</option>
+                  <option value="data22">LOTTE Family</option>
+                  <option value="data11" selected>계열사 관련사이트</option>
+                </select>
+              </p>
+            </div>
+            <div class="icon">
+              <a href="#"
+                ><img src="image/롯데월드 페이스북 바로가기.png" alt=""
+              /></a>
+              <a href="#"
+                ><img src="image/롯데월드 인스타그램 바로가기.png" alt=""
+              /></a>
+              <a href="#"
+                ><img src="image/롯데월드 유튜브 바로가기.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="f-logo"><img src="./image/footer_logo.png" alt="" /></div>
           <div class="txt">
             <div class="vb">
               <p>
@@ -439,112 +749,37 @@
               </p>
             </div>
             <p class="copy">COPYRIGHT 2018 LOTTEWORLD. ALL RIGHTS RESERVED.</p>
-            <div class="box1">
-              <img src="image/ismsp_logo.png" alt="" />
-              <div class="p1">
-                <p>인증범위 | 롯데월드 예매서비스</p>
-                <p>유효기간 | 2023.11.01 ~ 2026.10.31</p>
+            <div class="box">
+              <div class="box1">
+                <img src="image/ismsp_logo.png" alt="" />
+                <div class="p1">
+                  <p>인증범위 | 롯데월드 예매서비스</p>
+                  <p>유효기간 | 2023.11.01 ~ 2026.10.31</p>
+                </div>
               </div>
-            </div>
-            <div class="box2">
-              <img src="image/isms_icon2.jpg" alt="" />
-              <p>한국서비스대상 명예의전당</p>
-            </div>
-          </div>
-          <div class="fg">
-            <div class="icon">
-              <img src="image/롯데월드 페이스북 바로가기.png" alt="" />
-              <img src="image/롯데월드 인스타그램 바로가기.png" alt="" />
-              <img src="image/롯데월드 유튜브 바로가기.png" alt="" />
-            </div>
-            <div class="fg-jd">
-              <p>계열사 관련 사이트</p>
+              <div class="box2">
+                <img src="image/isms_icon2.jpg" alt="" />
+                <p>한국서비스대상 명예의전당</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <script src="./js/myscript.js"></script>
     <script>
-      $(".slideInner").slick({
-        autoplay: true, // 슬라이더 자동재생
-        dots: true, // 번호버튼 표시여부
-        autoplaySpeed: 4000, // 자동재생 시간 간격(ms 단위생략) 3초
-        speed: 300, //슬라이드 진출입 속도 0.3초
-        arrows: true, // 이전, 다음 버튼 표시여부
-        prevArrow:
-          '<button class="slick-prev slick-arrow" aria-label="Previous" type="button"><i class="fa-solid fa-circle-arrow-left"></i></button>',
-        nextArrow:
-          '<button class="slick-next slick-arrow" aria-label="Next" type="button"><i class="fa-solid fa-circle-arrow-right"></i></button>',
-      });
-      $(".slideOuter1 .plapau i").on("click", function () {
-        if ($(this).hasClass("fa-pause")) {
-          $(".slideInner").slick("slickPause");
-          $(this).removeClass("fa-pause").addClass("fa-play");
-        } else {
-          $(".slideInner").slick("slickPlay");
-          $(this).removeClass("fa-play").addClass("fa-pause");
-        }
-      });
-
-      $(".slideInner2").slick({
-        autoplay: true, // 슬라이더 자동재생
-        dots: true, // 번호버튼 표시여부
-        autoplaySpeed: 4000, // 자동재생 시간 간격(ms 단위생략) 3초
-        speed: 300, //슬라이드 진출입 속도 0.3초
-        arrows: false, // 이전, 다음 버튼 표시여부
-        fade: true,
-      });
-
-      //퍼레이드 슬라이드
-      var $swiperSelector = $(".swiper-container");
-
-      $swiperSelector.each(function (index) {
-        var $this = $(this);
-        $this.addClass("swiper-slider-" + index);
-
-        var dragSize = $this.data("drag-size") ? $this.data("drag-size") : 50;
-        var freeMode = $this.data("free-mode")
-          ? $this.data("free-mode")
-          : false;
-        var loop = $this.data("loop") ? $this.data("loop") : false;
-        var slidesDesktop = $this.data("slides-desktop")
-          ? $this.data("slides-desktop")
-          : 4;
-        var slidesTablet = $this.data("slides-tablet")
-          ? $this.data("slides-tablet")
-          : 3;
-        var slidesMobile = $this.data("slides-mobile")
-          ? $this.data("slides-mobile")
-          : 2.5;
-        var spaceBetween = $this.data("space-between")
-          ? $this.data("space-between")
-          : 20;
-
-        var swiper = new Swiper(".swiper-slider-" + index, {
-          direction: "horizontal",
-          loop: loop,
-          slidesToShow: 3, // 무대에서 보여지는 슬라이드이미지에 갯수
-          slidesToScroll: 1,
-          freeMode: freeMode,
-          spaceBetween: spaceBetween,
-          breakpoints: {
-            1920: {
-              slidesPerView: slidesDesktop,
-            },
-            992: {
-              slidesPerView: slidesTablet,
-            },
-          },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-          scrollbar: {
-            el: ".swiper-scrollbar",
-            draggable: true,
-            dragSize: dragSize,
-          },
-        });
+      $(".title li").on("click", function () {
+        $(this).addClass("on").siblings().removeClass("on");
+        let num = $(this).index();
+        $(this)
+          .parent()
+          .next()
+          .find(".content")
+          .eq(num)
+          .addClass("on")
+          .siblings()
+          .removeClass("on");
       });
     </script>
   </body>
