@@ -94,7 +94,7 @@
   }
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 910px) {
   #header {
     background-color: #fff;
   }
@@ -198,12 +198,9 @@
   #header #nav .depth2 > li > a:hover {
     color: #fff;
     border-bottom: 1px solid #5a12e0;
-    /* background: rgba(0, 0, 0, 0.05); */
+
     font-weight: 900;
   }
-  /* #header .row .admenu .bk {
-    display: none;
-  } */
 
   /* 사이드퀵메뉴 */
   .quick {
@@ -816,6 +813,7 @@
   }
   .special .han .smart {
     margin-top: 24px;
+    width: 100%;
   }
   .special .han .smart img {
     width: 100%;

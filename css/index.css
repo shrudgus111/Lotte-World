@@ -121,22 +121,7 @@ table {
   background: #5a12e0;
   font-weight: 900;
 }
-/* #header .row .admenu .bk {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#header .row .admenu .bk li {
-  justify-content: space-between;
-  margin-right: 24px;
-  text-align: center;
-}
-#header .row .admenu .bk li p {
-  text-align: center;
 
-  padding-top: 7px;
-  white-space: nowrap;
-} */
 .quick {
   position: fixed;
   bottom: 70px;
@@ -606,11 +591,11 @@ table {
 .container .content.on .six {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 .container .content.on .six li {
   /* width: 100%; */
-  padding-bottom: 18px;
+  padding: 0 5px 18px 5px;
 }
 .container .content.on .six li span img {
   /* height: 249px; */
@@ -725,21 +710,24 @@ table {
   justify-content: space-between;
 }
 .special .han .news {
-  width: 49%;
-  padding: 53px;
+  width: 50%;
+  padding: 3%;
   border: 1px solid #e1e1e1;
+  margin-right: 3px;
+  align-items: center;
 }
 .special .han .news .hk {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 8px;
 }
 .special .han .news .hk .plus img {
   margin-bottom: 2px;
 }
 
 .special .han .news .nexs-list {
-  margin-top: 22px;
+  margin-top: 46px;
 }
 .special .han .news .nexs-list li {
   display: flex;
@@ -752,6 +740,9 @@ table {
 }
 .special .han .news .nexs-list li:hover > p {
   border-bottom: 1px solid #000;
+}
+.special .han .smart {
+  width: 50%;
 }
 
 /* 푸터 */
